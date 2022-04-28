@@ -51,7 +51,7 @@ jobs:
             type=semver,pattern={{major}}.{{minor}}
           flavor: |
             latest=auto
-            prefix=arm64,onlatest=<true
+            prefix=arm64,onlatest=true
             suffix=
       
       - name: Login to Docker Hub
